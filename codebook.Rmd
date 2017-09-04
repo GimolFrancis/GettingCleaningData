@@ -1,0 +1,45 @@
+###Project    : Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living
+## Purpose    : Course Project
+## Complete below 5 steps
+ # 1.Merges the training and the test sets to create one data set.
+ # 2.Extracts only the measurements on the mean and standard deviation for each measurement.
+ # 3.Uses descriptive activity names to name the activities in the data set
+ # 4.Appropriately labels the data set with descriptive variable names.
+ # 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+Raw Data Files are available in "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
+3 types of files for both Training and Testing
+
+subj_training : subject of category training on which features were measured
+x_training    : features measured for subj_training
+y_training    : activities for each feature of training category
+
+subj_testing : subject of category testing on which features were measured
+x_testing    : features measured for subj_testing
+y_testing    : activities for each feature of testing category  
+
+featuresList : reference list for features codes
+activityList : reference list for activity codes
+
+PROCESSING
+
+mergeTrainingList : Merged dataset for Subject category Training
+mergeTestingList : Merged dataset for Subject category Testing
+merge_ALL : Merged Data of both category subjects
+
+mean_and_std_subset : Subset of dataset with columns related to mean and std deviation with subject and activity
+mean_and_std_subset_Act :Merge / Join new dataset with Activity Labels
+
+
+OUTPUT
+dsTidyDataset : Generate independent tidy dataset with average of each variable
+dsTidyDataset.txt: Output file generated with dataset
+
+
+
+
+
+
+
